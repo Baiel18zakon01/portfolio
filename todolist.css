@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.dpreview.com/files/p/articles/9312839751/unsplash1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'The Nautigal', cursive;
+    font-size: 110px;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.mainBlock {
+    width: 800px;
+    background-color: rgb(58, 170, 207);
+    margin-bottom: 2em;
+    opacity: 0.9;
+    padding-left: 2em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 5px;
+}
+.mainBlock div{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.textIn{
+    height: 2em;
+    text-align: center;
+}
+ul {
+    list-style:none ;
+    padding-left: 0;
+}
+input,button{
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+#addBtn{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#addBtn:hover{
+    color: red;
+    background-color: rgb(216, 160, 144);
+}
+.taskItem{
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr ;
+}
+.done {
+    text-decoration: line-through;
+}
+.btn {
+    width: 30px;
+    cursor: pointer;
+}
